@@ -54,11 +54,6 @@ Welcome to my React-based portfolio! 🚀 Showcasing my skills, projects, and ac
    npm start
    ```
 
-4. **Build for Production**:
-   ```bash
-   npm run build
-   ```
-
 ---
 
 ## 📂 **Folder Structure**
