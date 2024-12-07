@@ -152,7 +152,15 @@ const techStack = {
     {
       Stack: "Programming",
       progressPercentage: "70%"
-    }
+    },
+    {
+      Stack: "AI, ML, DL and Data Science",
+      progressPercentage: "70%"
+    },
+    {
+      Stack: "Database Management",
+      progressPercentage: "70%"
+    },
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
 };
@@ -277,7 +285,17 @@ const achievementSection = {
       footerLink: [
         {name: "Certification", url: "https://drive.google.com/drive/folders/1B8y8PP-drrVtp-6qds4XfRyIx_NOlNmc?usp=sharing"},
       ]
-    }
+    },
+    {
+      title: "Data Camp",
+      subtitle: "Completed Certifcation from xeven for AI Basic Course.",
+      image: new URL("https://i.ibb.co/RQS7DBM/id-T7j-V3n4-Y-1733593878601.png"),
+      imageAlt: "datacamp Logo",
+      footerLink: [
+        {name: "Certification", url: "https://drive.google.com/drive/folders/1B8y8PP-drrVtp-6qds4XfRyIx_NOlNmc?usp=sharing"},
+      ]
+    },
+
   ],
   display: true // Set false to hide this section, defaults to true
 };

@@ -42,11 +42,11 @@ export default function Greeting() {
                 <Button text="Contact me" href="#contact" />
                 {greeting.resumeLink && (
                   <a
-                    href={require("./resume.pdf")}
+                    href={new URL("https://drive.google.com/file/d/1_nhb9oJDrBbDhppJtd5MMThh79jRRJeU/view?usp=sharing")}
                     download="Resume.pdf"
                     className="download-link-button"
                   >
-                    <Button text="Download my resume" />
+                    <Button text="Resume"/>
                   </a>
                 )}
               </div>
@@ -55,7 +55,7 @@ export default function Greeting() {
           <div className="greeting-image-div">
             <img
               alt=""
-              src={new URL("https://i.ibb.co/sV9dkQ0/Blue-Minimalist-Circle-Framed-Instagram-Profile-Picture-3.png")}
+              src={new URL("https://i.ibb.co/J7J8mDm/Blue-Minimalist-Circle-Framed-Instagram-Profile-Picture-2.png")}
               className="your-image-class"
             />
           </div>
