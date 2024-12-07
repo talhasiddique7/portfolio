@@ -13,6 +13,13 @@
   margin-top: 2rem;
 }
 
+.your-image-class {
+  width: 80%;
+  height: 500px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
 .greeting-main {
   display: flex;
 }
@@ -54,9 +61,12 @@
   line-height: 40px;
 }
 
+
 .greeting-image-div > img {
   max-width: 100%;
   height: auto;
+
+
 }
 
 .wave-emoji {
@@ -103,6 +113,8 @@
 @media (max-width: 768px) {
   .button-greeting-div {
     justify-content: space-around;
+
+
   }
   .greeting-text {
     font-size: 30px;
@@ -117,7 +129,9 @@
     display: block;
   }
   .greeting-image-div {
-    height: 256px;
+    height: 440px;
+    width: 440px;
+    margin: auto;
   }
 }
 

@@ -127,7 +127,7 @@ const educationInfo = {
   schools: [
     {
       schoolName: "University of Gujrat (Hafiz Hayat Campus)",
-      logo: require("./assets/images/uog.png"),
+      logo: new URL("https://i.ibb.co/p2gCGft/uog.png"),
       subHeader: "Bachelor of Science in Computer Science",
       duration: "November 2021 - April 2025",
       desc: "Took courses about Software Engineering, Web Security, Operating Systems, Artificial Intelligence ...",
@@ -205,7 +205,7 @@ const bigProjects = {
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
-      image: require("./assets/images/chullah.jpg"),
+      image: new URL("https://i.ibb.co/XDmBPDx/chullah.jpg"),
       projectName: "Chullah : Ghar Kai Zaike,Ab Har Darwaze",
       projectDesc: "",
       footerLink: [
@@ -245,7 +245,7 @@ const achievementSection = {
       subtitle:
         
       "I have completed several certifications from Udemy, including courses on HTML, CSS, JavaScript, Machine Learning, Python, SQL, and NumPy.",
-      image: new URL("https://logowik.com/content/uploads/images/udemy-new-20212512.jpg"),
+      image: new URL("https://i.ibb.co/LtPhHWD/udemy.jpg"),
       imageAlt: "udemy",
       footerLink: [
         {
